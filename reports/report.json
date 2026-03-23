@@ -1,0 +1,1749 @@
+{
+  "population": {
+    "messages": {
+      "mean": 3.9222432092102895,
+      "std": 2.028406809222133
+    },
+    "words": {
+      "mean": 20.18020327397014,
+      "std": 16.630324100427185
+    },
+    "avg_length": {
+      "mean": 5.075649612867777,
+      "std": 3.3699443355374927
+    },
+    "questions": {
+      "mean": 1.8565389458535708,
+      "std": 1.7547811904396973
+    },
+    "vocab_richness": {
+      "mean": 3.719312275029606,
+      "std": 1.308646520557347
+    },
+    "positive": {
+      "mean": 1.959165317503148,
+      "std": 1.519716940858847
+    },
+    "negative": {
+      "mean": 0.5118276668465551,
+      "std": 0.8036694414551117
+    },
+    "neutral": {
+      "mean": 1.4512502248605865,
+      "std": 1.3293725221175259
+    },
+    "avg_sentiment": {
+      "mean": 0.18473698524828455,
+      "std": 0.22713774965148623
+    },
+    "avg_tree_depth": {
+      "mean": 3.5933073320507947,
+      "std": 0.8570367081377922
+    },
+    "formality": {
+      "mean": 43.76241721439657,
+      "std": 12.687953695472357
+    },
+    "hedges": {
+      "mean": 0.3701205252743299,
+      "std": 0.734003972148211
+    },
+    "certainty_markers": {
+      "mean": 0.27738801942795466,
+      "std": 0.568443349917559
+    },
+    "entity_count": {
+      "mean": 1.693380104335312,
+      "std": 2.1725720947110023
+    }
+  },
+  "conversations": [
+    {
+      "index": 1,
+      "stats": {
+        "A": {
+          "messages": 5,
+          "words": 31,
+          "avg_length": 6.2,
+          "unique_words": [
+            "help",
+            "let",
+            "foursome",
+            "beer",
+            "pingpong",
+            "sally",
+            "feel",
+            "relax",
+            "we",
+            "good",
+            "dinner",
+            "jim",
+            "mean",
+            "hear",
+            "make",
+            "shall",
+            "play",
+            "mary",
+            "sit",
+            "guess",
+            "like",
+            "idea",
+            "perhaps",
+            "say",
+            "home",
+            "often",
+            "go",
+            "right"
+          ],
+          "vocab_richness": 5.028948456749697,
+          "positive": 2,
+          "negative": 1,
+          "neutral": 2,
+          "avg_sentiment": 0.21077999999999997,
+          "questions": 4,
+          "avg_tree_depth": 3.7333333333333334,
+          "formality": 36.8651476400837,
+          "hedges": 2,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "Jim",
+              "PERSON",
+              "Person"
+            ],
+            [
+              "Mary",
+              "PERSON",
+              "Person"
+            ],
+            [
+              "Sally",
+              "PERSON",
+              "Person"
+            ]
+          ],
+          "entity_count": 3,
+          "entity_types": {
+            "PERSON": 3
+          },
+          "entity_types_readable": {
+            "Person": 3
+          },
+          "gt_acts": {
+            "suggestion/request": 2,
+            "question": 2,
+            "commitment/promise": 1
+          },
+          "gt_emotions": {
+            "happiness": 2
+          }
+        },
+        "B": {
+          "messages": 5,
+          "words": 34,
+          "avg_length": 6.8,
+          "unique_words": [
+            "time",
+            "exercise",
+            "think",
+            "sound",
+            "fun",
+            "willing",
+            "tempting",
+            "friend",
+            "we",
+            "good",
+            "suggest",
+            "singsong",
+            "fat",
+            "ask",
+            "gym",
+            "make",
+            "meet",
+            "walk",
+            "play",
+            "last",
+            "silly",
+            "act",
+            "great",
+            "excellent",
+            "fitness",
+            "remember",
+            "dance",
+            "know",
+            "go",
+            "right",
+            "could",
+            "really"
+          ],
+          "vocab_richness": 5.487954724560282,
+          "positive": 3,
+          "negative": 1,
+          "neutral": 1,
+          "avg_sentiment": 0.29514,
+          "questions": 3,
+          "avg_tree_depth": 4.9,
+          "formality": 33.35357624831309,
+          "hedges": 1,
+          "certainty_markers": 0,
+          "entities": [],
+          "entity_count": 0,
+          "entity_types": {},
+          "entity_types_readable": {},
+          "gt_acts": {
+            "commitment/promise": 2,
+            "question": 1,
+            "suggestion/request": 1,
+            "statement": 1
+          },
+          "gt_emotions": {
+            "happiness": 2
+          }
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.5,
+        "B_dominance": 0.5
+      },
+      "persona": {
+        "A": {
+          "style": "moderate",
+          "engagement": "highly engaged",
+          "tone": "neutral",
+          "speech_style": "casual",
+          "role": "balanced",
+          "traits": [
+            "curious"
+          ],
+          "topics": {
+            "total": 3,
+            "types": {
+              "Person": 3
+            },
+            "examples": [
+              "Jim (Person)",
+              "Mary (Person)",
+              "Sally (Person)"
+            ]
+          }
+        },
+        "B": {
+          "style": "articulate",
+          "engagement": "highly engaged",
+          "tone": "mixed emotions",
+          "speech_style": "casual",
+          "role": "balanced",
+          "traits": [
+            "articulate",
+            "expressive",
+            "curious"
+          ],
+          "topics": null
+        }
+      }
+    },
+    {
+      "index": 2,
+      "stats": {
+        "A": {
+          "messages": 3,
+          "words": 6,
+          "avg_length": 2.0,
+          "unique_words": [
+            "push",
+            "yeah",
+            "impossible",
+            "up",
+            "think",
+            "really"
+          ],
+          "vocab_richness": 2.4494897427831783,
+          "positive": 1,
+          "negative": 0,
+          "neutral": 2,
+          "avg_sentiment": 0.11983333333333333,
+          "questions": 2,
+          "avg_tree_depth": 2.5,
+          "formality": 23.333333333333332,
+          "hedges": 1,
+          "certainty_markers": 0,
+          "entities": [],
+          "entity_count": 0,
+          "entity_types": {},
+          "entity_types_readable": {},
+          "gt_acts": {
+            "question": 2,
+            "statement": 1
+          },
+          "gt_emotions": {
+            "surprise": 1
+          }
+        },
+        "B": {
+          "messages": 3,
+          "words": 14,
+          "avg_length": 4.666666666666667,
+          "unique_words": [
+            "push",
+            "course",
+            "mean",
+            "make",
+            "minute",
+            "piece",
+            "everyday",
+            "easy",
+            "exercise",
+            "up",
+            "cake",
+            "believe"
+          ],
+          "vocab_richness": 3.2071349029490928,
+          "positive": 1,
+          "negative": 0,
+          "neutral": 2,
+          "avg_sentiment": 0.1468,
+          "questions": 2,
+          "avg_tree_depth": 2.9444444444444446,
+          "formality": 41.666666666666664,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "30",
+              "CARDINAL",
+              "Number"
+            ],
+            [
+              "30",
+              "CARDINAL",
+              "Number"
+            ]
+          ],
+          "entity_count": 2,
+          "entity_types": {
+            "CARDINAL": 2
+          },
+          "entity_types_readable": {
+            "Number": 2
+          },
+          "gt_acts": {
+            "statement": 2,
+            "question": 1
+          },
+          "gt_emotions": {}
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.5,
+        "B_dominance": 0.5
+      },
+      "persona": {
+        "A": {
+          "style": "concise",
+          "engagement": "moderately engaged",
+          "tone": "neutral",
+          "speech_style": "casual",
+          "role": "balanced",
+          "traits": [
+            "withdrawn"
+          ],
+          "topics": null
+        },
+        "B": {
+          "style": "moderate",
+          "engagement": "moderately engaged",
+          "tone": "neutral",
+          "speech_style": "balanced",
+          "role": "balanced",
+          "traits": [
+            "withdrawn"
+          ],
+          "topics": {
+            "total": 2,
+            "types": {
+              "Number": 2
+            },
+            "examples": [
+              "30 (Number)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 3,
+      "stats": {
+        "A": {
+          "messages": 3,
+          "words": 7,
+          "avg_length": 2.3333333333333335,
+          "unique_words": [
+            "true",
+            "difference",
+            "radio",
+            "player",
+            "record",
+            "study",
+            "buy"
+          ],
+          "vocab_richness": 2.6457513110645903,
+          "positive": 1,
+          "negative": 0,
+          "neutral": 2,
+          "avg_sentiment": 0.07543333333333334,
+          "questions": 2,
+          "avg_tree_depth": 4.0,
+          "formality": 57.41341991341991,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [],
+          "entity_count": 0,
+          "entity_types": {},
+          "entity_types_readable": {},
+          "gt_acts": {
+            "question": 2,
+            "statement": 1
+          },
+          "gt_emotions": {}
+        },
+        "B": {
+          "messages": 2,
+          "words": 6,
+          "avg_length": 3.0,
+          "unique_words": [
+            "background",
+            "radio",
+            "many",
+            "music",
+            "listen",
+            "comerial"
+          ],
+          "vocab_richness": 2.4494897427831783,
+          "positive": 0,
+          "negative": 1,
+          "neutral": 1,
+          "avg_sentiment": -0.148,
+          "questions": 0,
+          "avg_tree_depth": 4.0,
+          "formality": 58.33333333333333,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [],
+          "entity_count": 0,
+          "entity_types": {},
+          "entity_types_readable": {},
+          "gt_acts": {
+            "statement": 2
+          },
+          "gt_emotions": {}
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.6,
+        "B_dominance": 0.4
+      },
+      "persona": {
+        "A": {
+          "style": "moderate",
+          "engagement": "moderately engaged",
+          "tone": "neutral",
+          "speech_style": "formal",
+          "role": "balanced",
+          "traits": [
+            "withdrawn"
+          ],
+          "topics": null
+        },
+        "B": {
+          "style": "moderate",
+          "engagement": "passive",
+          "tone": "negative",
+          "speech_style": "formal",
+          "role": "balanced",
+          "traits": [
+            "withdrawn",
+            "critical"
+          ],
+          "topics": null
+        }
+      }
+    },
+    {
+      "index": 4,
+      "stats": {
+        "A": {
+          "messages": 2,
+          "words": 3,
+          "avg_length": 1.5,
+          "unique_words": [
+            "right",
+            "worry",
+            "acrobat"
+          ],
+          "vocab_richness": 1.7320508075688774,
+          "positive": 0,
+          "negative": 0,
+          "neutral": 2,
+          "avg_sentiment": 0.0,
+          "questions": 1,
+          "avg_tree_depth": 2.75,
+          "formality": 43.75,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [],
+          "entity_count": 0,
+          "entity_types": {},
+          "entity_types_readable": {},
+          "gt_acts": {
+            "question": 1,
+            "statement": 1
+          },
+          "gt_emotions": {}
+        },
+        "B": {
+          "messages": 2,
+          "words": 7,
+          "avg_length": 3.5,
+          "unique_words": [
+            "see",
+            "soon",
+            "terrify",
+            "watch",
+            "right",
+            "wire",
+            "fall"
+          ],
+          "vocab_richness": 2.6457513110645903,
+          "positive": 0,
+          "negative": 1,
+          "neutral": 1,
+          "avg_sentiment": -0.3062,
+          "questions": 1,
+          "avg_tree_depth": 3.5,
+          "formality": 14.705882352941178,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [],
+          "entity_count": 0,
+          "entity_types": {},
+          "entity_types_readable": {},
+          "gt_acts": {
+            "statement": 2
+          },
+          "gt_emotions": {}
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.5,
+        "B_dominance": 0.5
+      },
+      "persona": {
+        "A": {
+          "style": "concise",
+          "engagement": "passive",
+          "tone": "negative",
+          "speech_style": "balanced",
+          "role": "balanced",
+          "traits": [
+            "withdrawn"
+          ],
+          "topics": null
+        },
+        "B": {
+          "style": "moderate",
+          "engagement": "passive",
+          "tone": "negative",
+          "speech_style": "casual",
+          "role": "balanced",
+          "traits": [
+            "critical",
+            "withdrawn"
+          ],
+          "topics": null
+        }
+      }
+    },
+    {
+      "index": 5,
+      "stats": {
+        "A": {
+          "messages": 5,
+          "words": 17,
+          "avg_length": 3.4,
+          "unique_words": [
+            "john",
+            "see",
+            "yeah",
+            "pretty",
+            "hey",
+            "goalie",
+            "later",
+            "position",
+            "new",
+            "play",
+            "guy",
+            "right",
+            "big",
+            "nice",
+            "rockets",
+            "skate"
+          ],
+          "vocab_richness": 3.8805700005813275,
+          "positive": 3,
+          "negative": 0,
+          "neutral": 2,
+          "avg_sentiment": 0.30796,
+          "questions": 2,
+          "avg_tree_depth": 2.7,
+          "formality": 45.519480519480524,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "John",
+              "PERSON",
+              "Person"
+            ]
+          ],
+          "entity_count": 1,
+          "entity_types": {
+            "PERSON": 1
+          },
+          "entity_types_readable": {
+            "Person": 1
+          },
+          "gt_acts": {
+            "question": 2,
+            "statement": 2,
+            "commitment/promise": 1
+          },
+          "gt_emotions": {}
+        },
+        "B": {
+          "messages": 4,
+          "words": 33,
+          "avg_length": 8.25,
+          "unique_words": [
+            "next",
+            "fast",
+            "new",
+            "defense",
+            "get",
+            "practice",
+            "think",
+            "well",
+            "skate",
+            "guy",
+            "oh",
+            "defender",
+            "able",
+            "hockey",
+            "fun",
+            "lot",
+            "see",
+            "team",
+            "later",
+            "play",
+            "yeah",
+            "league",
+            "go",
+            "ice",
+            "start",
+            "community",
+            "finally",
+            "week",
+            "really"
+          ],
+          "vocab_richness": 5.048252022715237,
+          "positive": 4,
+          "negative": 0,
+          "neutral": 0,
+          "avg_sentiment": 0.5029,
+          "questions": 3,
+          "avg_tree_depth": 3.375,
+          "formality": 42.847608150811816,
+          "hedges": 1,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "next week",
+              "DATE",
+              "Date/Time"
+            ]
+          ],
+          "entity_count": 1,
+          "entity_types": {
+            "DATE": 1
+          },
+          "entity_types_readable": {
+            "Date/Time": 1
+          },
+          "gt_acts": {
+            "statement": 2,
+            "question": 1,
+            "suggestion/request": 1
+          },
+          "gt_emotions": {
+            "surprise": 2
+          }
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.5555555555555556,
+        "B_dominance": 0.4444444444444444
+      },
+      "persona": {
+        "A": {
+          "style": "moderate",
+          "engagement": "moderately engaged",
+          "tone": "positive",
+          "speech_style": "balanced",
+          "role": "balanced",
+          "traits": [
+            "enthusiastic"
+          ],
+          "topics": {
+            "total": 1,
+            "types": {
+              "Person": 1
+            },
+            "examples": [
+              "John (Person)"
+            ]
+          }
+        },
+        "B": {
+          "style": "expressive",
+          "engagement": "moderately engaged",
+          "tone": "positive",
+          "speech_style": "tentative",
+          "role": "balanced",
+          "traits": [
+            "enthusiastic",
+            "curious",
+            "articulate"
+          ],
+          "topics": {
+            "total": 1,
+            "types": {
+              "Date/Time": 1
+            },
+            "examples": [
+              "next week (Date/Time)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 6,
+      "stats": {
+        "A": {
+          "messages": 5,
+          "words": 29,
+          "avg_length": 5.8,
+          "unique_words": [
+            "certainly",
+            "let",
+            "stress",
+            "well",
+            "zodiac",
+            "horoscope",
+            "feel",
+            "talk",
+            "january",
+            "criterion",
+            "match",
+            "bogus",
+            "see",
+            "hey",
+            "stuff",
+            "work",
+            "apply",
+            "lydia",
+            "say",
+            "nonsense",
+            "bunch",
+            "broad",
+            "read",
+            "practically",
+            "nonexistent",
+            "anyone",
+            "love",
+            "could",
+            "life"
+          ],
+          "vocab_richness": 5.385164807134505,
+          "positive": 2,
+          "negative": 0,
+          "neutral": 3,
+          "avg_sentiment": 0.17948,
+          "questions": 5,
+          "avg_tree_depth": 2.9,
+          "formality": 38.997668997668995,
+          "hedges": 1,
+          "certainty_markers": 1,
+          "entities": [
+            [
+              "January 5th",
+              "DATE",
+              "Date/Time"
+            ]
+          ],
+          "entity_count": 1,
+          "entity_types": {
+            "DATE": 1
+          },
+          "entity_types_readable": {
+            "Date/Time": 1
+          },
+          "gt_acts": {
+            "question": 3,
+            "statement": 2
+          },
+          "gt_emotions": {}
+        },
+        "B": {
+          "messages": 5,
+          "words": 66,
+          "avg_length": 13.2,
+          "unique_words": [
+            "personality",
+            "interesting",
+            "new",
+            "let",
+            "look",
+            "tell",
+            "thing",
+            "bear",
+            "stress",
+            "different",
+            "base",
+            "minded",
+            "zodiac",
+            "conventional",
+            "sound",
+            "horoscope",
+            "lot",
+            "passionate",
+            "feel",
+            "development",
+            "take",
+            "see",
+            "month",
+            "sign",
+            "aries",
+            "practical",
+            "outlook",
+            "energetic",
+            "fling",
+            "positive",
+            "work",
+            "prediction",
+            "like",
+            "astrology",
+            "serious",
+            "say",
+            "summer",
+            "exciting",
+            "exotic",
+            "someplace",
+            "april",
+            "way",
+            "date",
+            "vacation",
+            "capricorn",
+            "socialize",
+            "could",
+            "love",
+            "life"
+          ],
+          "vocab_richness": 6.0314830579873036,
+          "positive": 4,
+          "negative": 0,
+          "neutral": 1,
+          "avg_sentiment": 0.6260399999999999,
+          "questions": 3,
+          "avg_tree_depth": 3.8633333333333333,
+          "formality": 51.211328976034864,
+          "hedges": 1,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "this month",
+              "DATE",
+              "Date/Time"
+            ],
+            [
+              "summer",
+              "DATE",
+              "Date/Time"
+            ],
+            [
+              "month",
+              "DATE",
+              "Date/Time"
+            ],
+            [
+              "the month",
+              "DATE",
+              "Date/Time"
+            ],
+            [
+              "April 15th",
+              "DATE",
+              "Date/Time"
+            ],
+            [
+              "Capricorn",
+              "PERSON",
+              "Person"
+            ],
+            [
+              "Capricorn",
+              "PERSON",
+              "Person"
+            ]
+          ],
+          "entity_count": 7,
+          "entity_types": {
+            "DATE": 5,
+            "PERSON": 2
+          },
+          "entity_types_readable": {
+            "Date/Time": 5,
+            "Person": 2
+          },
+          "gt_acts": {
+            "statement": 4,
+            "question": 1
+          },
+          "gt_emotions": {
+            "happiness": 3
+          }
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.5,
+        "B_dominance": 0.5
+      },
+      "persona": {
+        "A": {
+          "style": "moderate",
+          "engagement": "highly engaged",
+          "tone": "neutral",
+          "speech_style": "tentative",
+          "role": "balanced",
+          "traits": [
+            "curious"
+          ],
+          "topics": {
+            "total": 1,
+            "types": {
+              "Date/Time": 1
+            },
+            "examples": [
+              "January 5th (Date/Time)"
+            ]
+          }
+        },
+        "B": {
+          "style": "articulate",
+          "engagement": "highly engaged",
+          "tone": "positive",
+          "speech_style": "formal",
+          "role": "balanced",
+          "traits": [
+            "expressive",
+            "articulate",
+            "enthusiastic",
+            "analytical",
+            "curious",
+            "assertive"
+          ],
+          "topics": {
+            "total": 7,
+            "types": {
+              "Date/Time": 5,
+              "Person": 2
+            },
+            "examples": [
+              "this month (Date/Time)",
+              "summer (Date/Time)",
+              "month (Date/Time)",
+              "the month (Date/Time)",
+              "April 15th (Date/Time)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 7,
+      "stats": {
+        "A": {
+          "messages": 4,
+          "words": 14,
+          "avg_length": 3.5,
+          "unique_words": [
+            "holiday",
+            "believe",
+            "yet",
+            "meet",
+            "spain",
+            "much",
+            "yes",
+            "frank",
+            "get",
+            "love",
+            "think",
+            "girl",
+            "marry"
+          ],
+          "vocab_richness": 3.474396144861517,
+          "positive": 2,
+          "negative": 0,
+          "neutral": 2,
+          "avg_sentiment": 0.288125,
+          "questions": 1,
+          "avg_tree_depth": 3.125,
+          "formality": 31.631944444444443,
+          "hedges": 1,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "Frank \u2019 s",
+              "PERSON",
+              "Person"
+            ],
+            [
+              "Spain",
+              "GPE",
+              "Place"
+            ]
+          ],
+          "entity_count": 2,
+          "entity_types": {
+            "PERSON": 1,
+            "GPE": 1
+          },
+          "entity_types_readable": {
+            "Person": 1,
+            "Place": 1
+          },
+          "gt_acts": {
+            "question": 1,
+            "statement": 3
+          },
+          "gt_emotions": {}
+        },
+        "B": {
+          "messages": 3,
+          "words": 5,
+          "avg_length": 1.6666666666666667,
+          "unique_words": [
+            "set",
+            "date",
+            "wedding",
+            "mar",
+            "really"
+          ],
+          "vocab_richness": 2.23606797749979,
+          "positive": 0,
+          "negative": 0,
+          "neutral": 3,
+          "avg_sentiment": 0.0,
+          "questions": 3,
+          "avg_tree_depth": 3.0,
+          "formality": 32.63888888888889,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [],
+          "entity_count": 0,
+          "entity_types": {},
+          "entity_types_readable": {},
+          "gt_acts": {
+            "question": 3
+          },
+          "gt_emotions": {
+            "surprise": 1
+          }
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.5714285714285714,
+        "B_dominance": 0.42857142857142855
+      },
+      "persona": {
+        "A": {
+          "style": "moderate",
+          "engagement": "moderately engaged",
+          "tone": "neutral",
+          "speech_style": "casual",
+          "role": "balanced",
+          "traits": [
+            "reserved"
+          ],
+          "topics": {
+            "total": 2,
+            "types": {
+              "Person": 1,
+              "Place": 1
+            },
+            "examples": [
+              "Frank \u2019 s (Person)",
+              "Spain (Place)"
+            ]
+          }
+        },
+        "B": {
+          "style": "concise",
+          "engagement": "moderately engaged",
+          "tone": "negative",
+          "speech_style": "casual",
+          "role": "balanced",
+          "traits": [
+            "withdrawn"
+          ],
+          "topics": null
+        }
+      }
+    },
+    {
+      "index": 8,
+      "stats": {
+        "A": {
+          "messages": 7,
+          "words": 29,
+          "avg_length": 4.142857142857143,
+          "unique_words": [
+            "thank",
+            "tile",
+            "new",
+            "wedding",
+            "oh",
+            "suburb",
+            "good",
+            "bedroom",
+            "investment",
+            "house",
+            "style",
+            "year",
+            "hear",
+            "spanish",
+            "nice",
+            "kind",
+            "great",
+            "buy",
+            "two",
+            "untill",
+            "area",
+            "know",
+            "love",
+            "roof",
+            "northern",
+            "end"
+          ],
+          "vocab_richness": 4.828078792603349,
+          "positive": 4,
+          "negative": 0,
+          "neutral": 3,
+          "avg_sentiment": 0.33054285714285714,
+          "questions": 2,
+          "avg_tree_depth": 3.9285714285714284,
+          "formality": 54.033347604776175,
+          "hedges": 1,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "Spanish",
+              "NORP",
+              "Group/Nationality"
+            ],
+            [
+              "two",
+              "CARDINAL",
+              "Number"
+            ],
+            [
+              "the end of this year",
+              "DATE",
+              "Date/Time"
+            ]
+          ],
+          "entity_count": 3,
+          "entity_types": {
+            "NORP": 1,
+            "CARDINAL": 1,
+            "DATE": 1
+          },
+          "entity_types_readable": {
+            "Group/Nationality": 1,
+            "Number": 1,
+            "Date/Time": 1
+          },
+          "gt_acts": {
+            "statement": 5,
+            "question": 2
+          },
+          "gt_emotions": {
+            "happiness": 4
+          }
+        },
+        "B": {
+          "messages": 6,
+          "words": 33,
+          "avg_length": 5.5,
+          "unique_words": [
+            "room",
+            "car",
+            "garage",
+            "come",
+            "double",
+            "river",
+            "congratulation",
+            "bedroom",
+            "bed",
+            "ceiling",
+            "price",
+            "cost",
+            "living",
+            "house",
+            "style",
+            "bargaining",
+            "day",
+            "market",
+            "twelve",
+            "like",
+            "spanish",
+            "buy",
+            "foot",
+            "two",
+            "wonderful",
+            "right",
+            "yea",
+            "three",
+            "side"
+          ],
+          "vocab_richness": 5.048252022715237,
+          "positive": 3,
+          "negative": 1,
+          "neutral": 2,
+          "avg_sentiment": 0.2060833333333333,
+          "questions": 1,
+          "avg_tree_depth": 3.9166666666666665,
+          "formality": 60.7390873015873,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "Spanish",
+              "NORP",
+              "Group/Nationality"
+            ],
+            [
+              "three",
+              "CARDINAL",
+              "Number"
+            ],
+            [
+              "three",
+              "CARDINAL",
+              "Number"
+            ],
+            [
+              "twelve-foot",
+              "QUANTITY",
+              "Measurement"
+            ],
+            [
+              "two",
+              "CARDINAL",
+              "Number"
+            ]
+          ],
+          "entity_count": 5,
+          "entity_types": {
+            "NORP": 1,
+            "CARDINAL": 3,
+            "QUANTITY": 1
+          },
+          "entity_types_readable": {
+            "Group/Nationality": 1,
+            "Number": 3,
+            "Measurement": 1
+          },
+          "gt_acts": {
+            "statement": 5,
+            "question": 1
+          },
+          "gt_emotions": {
+            "happiness": 3
+          }
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.5384615384615384,
+        "B_dominance": 0.46153846153846156
+      },
+      "persona": {
+        "A": {
+          "style": "moderate",
+          "engagement": "highly engaged",
+          "tone": "positive",
+          "speech_style": "formal",
+          "role": "balanced",
+          "traits": [
+            "enthusiastic",
+            "analytical"
+          ],
+          "topics": {
+            "total": 3,
+            "types": {
+              "Group/Nationality": 1,
+              "Number": 1,
+              "Date/Time": 1
+            },
+            "examples": [
+              "Spanish (Group/Nationality)",
+              "two (Number)",
+              "the end of this year (Date/Time)"
+            ]
+          }
+        },
+        "B": {
+          "style": "moderate",
+          "engagement": "moderately engaged",
+          "tone": "mixed emotions",
+          "speech_style": "formal",
+          "role": "balanced",
+          "traits": [
+            "analytical",
+            "articulate",
+            "expressive"
+          ],
+          "topics": {
+            "total": 5,
+            "types": {
+              "Number": 3,
+              "Group/Nationality": 1,
+              "Measurement": 1
+            },
+            "examples": [
+              "Spanish (Group/Nationality)",
+              "three (Number)",
+              "twelve-foot (Measurement)",
+              "two (Number)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 9,
+      "stats": {
+        "A": {
+          "messages": 6,
+          "words": 49,
+          "avg_length": 8.166666666666666,
+          "unique_words": [
+            "enough",
+            "school",
+            "criticizing",
+            "would",
+            "law",
+            "nothing",
+            "can",
+            "advice",
+            "cook",
+            "feed",
+            "hop",
+            "let",
+            "tell",
+            "thing",
+            "food",
+            "constant",
+            "else",
+            "send",
+            "lot",
+            "problem",
+            "feel",
+            "use",
+            "we",
+            "good",
+            "ever",
+            "welcome",
+            "see",
+            "understand",
+            "sit",
+            "also",
+            "like",
+            "happen",
+            "peaceful",
+            "sun",
+            "everything",
+            "discipline",
+            "know",
+            "much",
+            "complain",
+            "hi",
+            "becky",
+            "mother",
+            "example",
+            "basically"
+          ],
+          "vocab_richness": 6.285714285714286,
+          "positive": 1,
+          "negative": 3,
+          "neutral": 2,
+          "avg_sentiment": -0.010883333333333328,
+          "questions": 4,
+          "avg_tree_depth": 4.055555555555555,
+          "formality": 50.534799233311816,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "Becky",
+              "GPE",
+              "Place"
+            ]
+          ],
+          "entity_count": 1,
+          "entity_types": {
+            "GPE": 1
+          },
+          "entity_types_readable": {
+            "Place": 1
+          },
+          "gt_acts": {
+            "question": 3,
+            "statement": 3
+          },
+          "gt_emotions": {}
+        },
+        "B": {
+          "messages": 6,
+          "words": 46,
+          "avg_length": 7.666666666666667,
+          "unique_words": [
+            "never",
+            "kid",
+            "anything",
+            "would",
+            "law",
+            "nothing",
+            "feed",
+            "pick",
+            "food",
+            "well",
+            "drive",
+            "criticize",
+            "sound",
+            "problem",
+            "use",
+            "good",
+            "invite",
+            "except",
+            "nit",
+            "meat",
+            "old",
+            "dinner",
+            "vegetable",
+            "last",
+            "like",
+            "also",
+            "seem",
+            "say",
+            "idea",
+            "rotten",
+            "stop",
+            "try",
+            "everything",
+            "wall",
+            "husband",
+            "much",
+            "listen",
+            "right",
+            "week",
+            "mother",
+            "around",
+            "love",
+            "please",
+            "raise"
+          ],
+          "vocab_richness": 6.487446070815474,
+          "positive": 2,
+          "negative": 3,
+          "neutral": 1,
+          "avg_sentiment": -0.01488333333333335,
+          "questions": 5,
+          "avg_tree_depth": 3.972222222222222,
+          "formality": 34.97835497835498,
+          "hedges": 0,
+          "certainty_markers": 1,
+          "entities": [
+            [
+              "last week",
+              "DATE",
+              "Date/Time"
+            ]
+          ],
+          "entity_count": 1,
+          "entity_types": {
+            "DATE": 1
+          },
+          "entity_types_readable": {
+            "Date/Time": 1
+          },
+          "gt_acts": {
+            "statement": 5,
+            "question": 1
+          },
+          "gt_emotions": {
+            "happiness": 1
+          }
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.5,
+        "B_dominance": 0.5
+      },
+      "persona": {
+        "A": {
+          "style": "articulate",
+          "engagement": "highly engaged",
+          "tone": "negative",
+          "speech_style": "formal",
+          "role": "balanced",
+          "traits": [
+            "critical",
+            "articulate",
+            "expressive",
+            "curious",
+            "assertive",
+            "analytical"
+          ],
+          "topics": {
+            "total": 1,
+            "types": {
+              "Place": 1
+            },
+            "examples": [
+              "Becky (Place)"
+            ]
+          }
+        },
+        "B": {
+          "style": "articulate",
+          "engagement": "highly engaged",
+          "tone": "neutral",
+          "speech_style": "casual",
+          "role": "balanced",
+          "traits": [
+            "critical",
+            "articulate",
+            "curious",
+            "assertive",
+            "expressive"
+          ],
+          "topics": {
+            "total": 1,
+            "types": {
+              "Date/Time": 1
+            },
+            "examples": [
+              "last week (Date/Time)"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "index": 10,
+      "stats": {
+        "A": {
+          "messages": 3,
+          "words": 19,
+          "avg_length": 6.333333333333333,
+          "unique_words": [
+            "deadline",
+            "make",
+            "need",
+            "cash",
+            "programmer",
+            "next",
+            "run",
+            "zina",
+            "start",
+            "new",
+            "week",
+            "we",
+            "good",
+            "work",
+            "will",
+            "vikam",
+            "anymore",
+            "pay"
+          ],
+          "vocab_richness": 4.129483209670111,
+          "positive": 1,
+          "negative": 0,
+          "neutral": 2,
+          "avg_sentiment": 0.1468,
+          "questions": 2,
+          "avg_tree_depth": 4.0,
+          "formality": 41.82484182484182,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "Zina",
+              "ORG",
+              "Organization"
+            ],
+            [
+              "Stars.com",
+              "ORG",
+              "Organization"
+            ],
+            [
+              "next week",
+              "DATE",
+              "Date/Time"
+            ],
+            [
+              "Stars.com",
+              "ORG",
+              "Organization"
+            ],
+            [
+              "Vikam",
+              "ORG",
+              "Organization"
+            ]
+          ],
+          "entity_count": 5,
+          "entity_types": {
+            "ORG": 4,
+            "DATE": 1
+          },
+          "entity_types_readable": {
+            "Organization": 4,
+            "Date/Time": 1
+          },
+          "gt_acts": {
+            "question": 2,
+            "statement": 1
+          },
+          "gt_emotions": {}
+        },
+        "B": {
+          "messages": 3,
+          "words": 14,
+          "avg_length": 4.666666666666667,
+          "unique_words": [
+            "filipino",
+            "genius",
+            "hate",
+            "kid",
+            "make",
+            "need",
+            "either",
+            "admit",
+            "fast",
+            "zina",
+            "good",
+            "will",
+            "close"
+          ],
+          "vocab_richness": 3.474396144861517,
+          "positive": 1,
+          "negative": 0,
+          "neutral": 2,
+          "avg_sentiment": 0.1468,
+          "questions": 0,
+          "avg_tree_depth": 2.888888888888889,
+          "formality": 33.76623376623377,
+          "hedges": 0,
+          "certainty_markers": 0,
+          "entities": [
+            [
+              "Filipino",
+              "NORP",
+              "Group/Nationality"
+            ],
+            [
+              "Zina",
+              "ORG",
+              "Organization"
+            ]
+          ],
+          "entity_count": 2,
+          "entity_types": {
+            "NORP": 1,
+            "ORG": 1
+          },
+          "entity_types_readable": {
+            "Group/Nationality": 1,
+            "Organization": 1
+          },
+          "gt_acts": {
+            "statement": 3
+          },
+          "gt_emotions": {}
+        }
+      },
+      "comparison": {
+        "A_dominance": 0.5,
+        "B_dominance": 0.5
+      },
+      "persona": {
+        "A": {
+          "style": "moderate",
+          "engagement": "moderately engaged",
+          "tone": "neutral",
+          "speech_style": "balanced",
+          "role": "balanced",
+          "traits": [
+            "analytical"
+          ],
+          "topics": {
+            "total": 5,
+            "types": {
+              "Organization": 4,
+              "Date/Time": 1
+            },
+            "examples": [
+              "Zina (Organization)",
+              "Stars.com (Organization)",
+              "next week (Date/Time)",
+              "Vikam (Organization)"
+            ]
+          }
+        },
+        "B": {
+          "style": "moderate",
+          "engagement": "passive",
+          "tone": "neutral",
+          "speech_style": "casual",
+          "role": "balanced",
+          "traits": [
+            "withdrawn"
+          ],
+          "topics": {
+            "total": 2,
+            "types": {
+              "Group/Nationality": 1,
+              "Organization": 1
+            },
+            "examples": [
+              "Filipino (Group/Nationality)",
+              "Zina (Organization)"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
