@@ -26,11 +26,16 @@ report.py - generates reports
 
 ## Tech Used
 
-- Python  
-- spaCy  
-- NLTK  
-- VADER Sentiment  
+## Tech Used
 
+- Python  
+- spaCy (NLP processing)  
+- NLTK (text processing)  
+- VADER Sentiment Analysis  
+- Pandas (data handling)  
+- Matplotlib (visualization)
+- HTML (report generation)
+  
 ## Author
 
 Zuman
