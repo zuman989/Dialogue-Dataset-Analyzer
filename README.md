@@ -26,8 +26,6 @@ report.py - generates reports
 
 ## Tech Used
 
-## Tech Used
-
 - Python  
 - spaCy (NLP processing)  
 - NLTK (text processing)  
