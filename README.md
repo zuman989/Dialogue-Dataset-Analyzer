@@ -2,7 +2,6 @@
 
 A Python-based NLP tool for analyzing dialogue datasets and extracting persona traits and conversational patterns.
 
----
 
 ## Features
 - Sentiment analysis using VADER  
@@ -11,7 +10,6 @@ A Python-based NLP tool for analyzing dialogue datasets and extracting persona t
 - Turn-taking and interaction pattern analysis  
 - Generates structured reports in HTML and JSON formats  
 
----
 
 ## Tech Stack
 - Python  
@@ -21,7 +19,6 @@ A Python-based NLP tool for analyzing dialogue datasets and extracting persona t
 - Matplotlib  
 - HTML  
 
----
 
 ## What it does
 
@@ -32,7 +29,6 @@ It can be used for:
 - understanding dialogue behavior  
 - supporting chatbot or conversational AI development  
 
----
 
 ## How to run
 
@@ -50,7 +46,6 @@ Generate reports:
 
 python report.py  
 
----
 
 ## Project structure
 
@@ -60,7 +55,6 @@ src/        core logic
 main.py     runs analysis  
 report.py   generates reports  
 
----
 
 ## Future work
 - Improve visualization and reporting  
@@ -68,7 +62,6 @@ report.py   generates reports
 - Extend persona modeling capabilities  
 - Explore integration with LLM-based systems  
 
----
 
 ## Author
 Zuman
