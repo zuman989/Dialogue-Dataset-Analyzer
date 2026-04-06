@@ -1,39 +1,61 @@
-# Dialogue Dataset Analyzer
-An NLP-powered Python project that analyzes dialogue datasets and extracts speaker personas.
+##Dialogue Dataset Analyzer
 
-## Features
+A Python-based NLP tool for analyzing dialogue datasets and extracting persona traits and conversational patterns.
 
-- Sentiment analysis  
-- Speaker behavior analysis  
-- Persona trait extraction  
-- Generates HTML and JSON reports  
+##Features
+Sentiment analysis using VADER
+Speaker behavior analysis
+Persona trait extraction from dialogue
+Turn-taking and interaction pattern analysis
+Generates structured reports in HTML and JSON formats
 
-## How to Run
+##Tech Stack
+Python
+spaCy
+NLTK (including VADER)
+Pandas
+Matplotlib
+HTML
 
-Run main analysis:
+##What it does
+
+This project processes dialogue datasets to identify patterns in how people communicate. It looks at sentiment, language use, and interaction structure to infer behavioral traits and persona characteristics.
+
+It can be used for:
+
+analyzing conversational data
+understanding dialogue behavior
+supporting chatbot or conversational AI development
+
+##How to run
+
+Clone the repository and install dependencies:
+
+git clone <your-repo-link>
+cd Dialogue-Dataset-Analyzer
+pip install -r requirements.txt
+
+Run the analysis:
+
 python main.py
 
-Generate report:
+Generate reports:
+
 python report.py
 
-## Project Structure
+##Project structure
+data/       input datasets  
+reports/    generated outputs  
+src/        core logic  
+main.py     runs analysis  
+report.py   generates reports  
 
-data/ - dataset  
-reports/ - output files  
-src/ - core logic  
-main.py - runs analysis  
-report.py - generates reports  
+##Future work
+Improve visualization and reporting
+Add support for larger datasets
+Extend persona modeling capabilities
+Explore integration with LLM-based systems
 
-## Tech Used
-
-- Python  
-- spaCy (NLP processing)  
-- NLTK (text processing)  
-- VADER Sentiment Analysis  
-- Pandas (data handling)  
-- Matplotlib (visualization)
-- HTML (report generation)
-  
-## Author
+##Author
 
 Zuman
