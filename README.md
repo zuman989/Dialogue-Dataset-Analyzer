@@ -146,6 +146,11 @@ The pipeline also generates a styled HTML report with:
 
 Run `python report.py` and open `reports/report.html` in a browser to view.
 
+![Dashboard](screenshots/dashboard.png)
+![Charts](screenshots/charts1.png)
+![Charts](screenshots/charts2.png)
+![Conversation](screenshots/conversation.png)
+![Persona Cards](screenshots/persona_cards.png)
 ---
 
 ## How It Works
