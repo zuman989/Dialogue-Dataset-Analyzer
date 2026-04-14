@@ -1,6 +1,6 @@
 ## Dialogue Dataset Analyzer
 
-A Python-based NLP pipeline that extracts persona profiles and behavioral traits from multi-turn conversational datasets. Built to analyze how people communicate - their sentiment patterns, vocabulary, formality, and conversational role - and automatically generate structured persona profiles for each speaker.
+A Python-based NLP pipeline that extracts persona profiles and behavioral traits from multi-turn conversational datasets. Built to analyze how people communicate, their sentiment patterns, vocabulary, formality, and conversational role and automatically generate structured persona profiles for each speaker.
 
 Tested on the [DailyDialog](http://yanran.li/dailydialog) dataset (11,118 conversations).
 
